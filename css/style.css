@@ -21,6 +21,7 @@ body {
 	place-items: center;
 }
 
+/* -------------------- Analog clock -------------------- */
 .clock {
 	width: 600px;
 	height: 600px;
@@ -33,6 +34,7 @@ body {
 	position: relative;
 }
 
+/* Lines */
 .line {
 	width: 30px;
 	height: 8px;
@@ -127,6 +129,7 @@ body {
 	left: calc(50% - 4px);
 }
 
+/* Numbes */
 .number {
 	width: 45px;
 	height: 50px;
@@ -231,6 +234,7 @@ body {
 	z-index: 4;
 }
 
+/* Pins */
 .hour-pin {
 	width: 35%;
 	height: 8px;
@@ -270,6 +274,7 @@ body {
 	z-index: 3;
 }
 
+/* -------------------- Digital clock -------------------- */
 .digital {
 	width: 280px;
 	position: relative;
